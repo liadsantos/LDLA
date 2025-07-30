@@ -50,7 +50,7 @@ We present a novel approach to face aging that addresses the limitations of curr
             </span>
             <br>
             <span style="font-size:12pt">ICCV, 2025 (P13N Workshop)</span>
-            <span style="font-size:12pt"><a href="https://arxiv.org/abs/2507.21600" target="_blank">[arXiv]</a>&nbsp;<a href="bibtex.txt" target="_blank">[BibTeX]</a>&nbsp;</span>
+            <span style="font-size:12pt"><a href="https://arxiv.org/abs/2507.21600" target="_blank">[arXiv]</a></span>
         </div>
     </div>
 </div>
