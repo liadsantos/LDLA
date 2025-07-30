@@ -14,8 +14,6 @@
   <img width="40%" src="images/loreal_research.png">
 </p>
 
-## Video Summary
-
 ## Abstract
 We present a novel approach to face aging that addresses the limitations of current methods which treat aging as a global, homogeneous process. Existing techniques using GANs and diffusion models often condition generation on a reference image and target age, neglecting that facial regions age heterogeneously due to both intrinsic chronological factors and extrinsic elements like sun exposure. Our method leverages latent diffusion models to selectively age specific facial regions using local aging signs. This approach provides significantly finer-grained control over the generation process, enabling more realistic and personalized aging. We employ a latent diffusion refiner to seamlessly blend these locally aged regions, ensuring a globally consistent and natural-looking synthesis. Experimental results demonstrate that our method effectively achieves three key criteria for successful face aging: robust identity preservation, high-fidelity and realistic imagery, and a natural, controllable aging progression.
 
@@ -53,6 +51,3 @@ We also demonstrate the control over different zones of the face, where **(a)** 
 <p align="center">
     <img width="90%" src="images/playing-values-signs.png">
 </p>
-
-
-### FFHQ Public Image dataset
