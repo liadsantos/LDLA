@@ -8,4 +8,4 @@ include:
 minima:
   skin: classic
   include_css:
-    - /assets/css/custom.css
+    - /assets/css/style.css
