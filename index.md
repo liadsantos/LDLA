@@ -19,6 +19,42 @@ We present a novel approach to face aging that addresses the limitations of curr
 
 ## Paper
 
+
+<div align="center" style="display:flex; margin-bottom:50px; margin-top: 30px;">
+    <div style="width:20%;display: inline-block;">     
+        <a href="https://arxiv.org/abs/2507.21600" target="_blank">
+            <img src="img/paper_thumbnail.jpg"
+                  style="max-height:200px;
+                         margin-left:10px;
+                         margin-right:45px;
+                         box-shadow:
+                            0px 0px 1px 1px rgba(0,0,0,0.35),
+                            5px 5px 0 0px #fff,
+                            5px 5px 1px 1px rgba(0,0,0,0.35),
+                            10px 10px 0 0px #fff,
+                            10px 10px 1px 1px rgba(0,0,0,0.35),
+                            15px 15px 0 0px #fff,
+                            15px 15px 1px 1px rgba(0,0,0,0.35),
+                            20px 20px 0 0px #fff,
+                            20px 20px 1px 1px rgba(0,0,0,0.35),
+                            25px 25px 0 0px #fff,
+                            25px 25px 1px 1px rgba(0,0,0,0.35);"
+            />
+        </a>
+    </div>
+    <div style="width:70%;display: flex; align-items: center; margin-left: 5%;">
+        <div style="text-align: left;">
+            <span style="font-size:12pt">L. Alves dos Santos, J. Despois, T. Chauffier, S. Ba, G. Palma</span><br>
+            <span style="font-size:12pt">
+                <b>Locally Controlled Face Aging with Latent Diffusion Models.</b>
+            </span>
+            <br>
+            <span style="font-size:12pt">ICCV, 2025 (P13N Workshop)</span>
+            <span style="font-size:12pt"><a href="https://arxiv.org/abs/2507.21600" target="_blank">[arXiv]</a>&nbsp;<a href="bibtex.txt" target="_blank">[BibTeX]</a>&nbsp;</span>
+        </div>
+    </div>
+</div>
+
 ## Model Training and Inference
 Our model based on latent diffusion models to achieve locally controlled face aging. Rather than relying on age as a parameter, the focus is placed on the natural evolution of face wrinkles by relying on locally normalized aging scores. Each part of the face is generated individually, using a target score as a condition for each zone, rather than generating the entire face as a whole. The generated crops are then blended to produce full-face images, an approach that yields smoother and more realistic results. Our approach maintains the core idea of Stable Diffusion of doing the denoising-diffusion in the latent space. It employs three distinct prompts: P<sub>full</sub>, that ensures the model performs the task from a global perspective, P<sub>zone</sub>, helps the model identify the specific crop zone and focus on increasing or decreasing wrinkles, and P<sub>target</sub>, used to guide the initial step of the latent cycle consistency loss.
 
