@@ -23,7 +23,7 @@ We present a novel approach to face aging that addresses the limitations of curr
 <div align="center" style="display:flex; margin-bottom:50px; margin-top: 30px;">
     <div style="width:20%;display: inline-block;">     
         <a href="https://arxiv.org/abs/2507.21600" target="_blank">
-            <img src="img/paper_thumbnail.jpg"
+            <img src="images/paper_thumbnail.jpg"
                   style="max-height:200px;
                          margin-left:10px;
                          margin-right:45px;
