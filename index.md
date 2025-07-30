@@ -4,10 +4,6 @@
   }
 </style>
 
-<header align="center">
-  Latent Diffusion Local Aging (LDLA): A Locally Controlled Face Aging technique with Latent Diffusion Models
-</header>
-
 <div>
   <h1 align="center">Latent Diffusion Local Aging (LDLA): A Locally Controlled Face Aging technique with Latent Diffusion Models</h1>
 </div>
