@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Locally Controlled Face Aging with Latent Diffusion Models</title>
-<!-- Add MathJax for LaTeX rendering -->
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
-</head>
-<body>
-
 # Locally Controlled Face Aging with Latent Diffusion Models
 
 <div>
@@ -62,5 +52,5 @@ We also demonstrate the control over different zones of the face, where **(a)** 
     <img width="90%" src="images/playing-values-signs.png">
 </p>
 
-</body>
-</html>
+<!-- MathJax for LaTeX support -->
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
