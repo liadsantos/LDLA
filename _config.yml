@@ -1,3 +1,4 @@
-theme: jekyll-theme-minima
+#theme: jekyll-theme-minima
+remote_theme: "jekyll/minima@1e8a445"
 title: "Latent Diffusion Local Aging (LDLA): Locally Controlled Face Aging with Latent Diffusion Models"
 description: A diffusion-based model that offers greater control over the zones of the face by using ethnicity-specific skin atlases.
