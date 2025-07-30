@@ -1,5 +1,5 @@
 <div>
-  <h1 align="center">Locally Controlled Face Aging with Latent Diffusion Models</h1>
+  <h1 align="center">Latent Diffusion Local Aging (LDLA): A Locally Controlled Face Aging technique with Latent Diffusion Models</h1>
 </div>
 
 <div>
