@@ -1,11 +1,3 @@
 theme: minima
 title: "Latent Diffusion Local Aging (LDLA): A Locally Controlled Face Aging technique with Latent Diffusion Models"
 description: A diffusion-based model that offers greater control over the zones of the face by using ethnicity-specific skin atlases.
-
-include: 
-  - assets/css
-
-minima:
-  skin: classic
-  include_css:
-    - /assets/css/style.css
