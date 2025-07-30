@@ -42,7 +42,7 @@ We present a novel approach to face aging that addresses the limitations of curr
             />
         </a>
     </div>
-    <div style="width:70%;display: flex; align-items: center; margin-left: 5%;">
+    <div style="width:70%;display: flex; align-items: center; margin-left: 15%;">
         <div style="text-align: left;">
             <span style="font-size:12pt">L. Alves dos Santos, J. Despois, T. Chauffier, S. Ba, G. Palma</span><br>
             <span style="font-size:12pt">
