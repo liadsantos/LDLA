@@ -1,4 +1,6 @@
-# Locally Controlled Face Aging with Latent Diffusion Models
+<div>
+  <h1 align="center">Locally Controlled Face Aging with Latent Diffusion Models</h1>
+</div>
 
 <div>
     <h2 align="center">
@@ -86,4 +88,15 @@ We also demonstrate the control over different zones of the face, where **(a)** 
 
 <p align="center">
     <img width="90%" src="images/playing-values-signs.png">
+</p>
+
+### FFQH Dataset
+Results show that our model achieves high-quality aging despite the much smaller number of training images, as well as variations in illumination, head orientation, and facial expressions across the dataset.
+
+<p align="center">
+    <img width="90%" src="images/p33_ethn-caucasian_SD-2.png">
+</p>
+
+<p align="center">
+    <img width="90%" src="images/p559_ethn-caucasian_SD-2.png">
 </p>
