@@ -20,13 +20,13 @@ We present a novel approach to face aging that addresses the limitations of curr
 ## Paper
 
 ## Model Training and Inference
-Our model based on latent diffusion models to achieve locally controlled face aging. Rather than relying on age as a parameter, the focus is placed on the natural evolution of face wrinkles by relying on locally normalized aging scores. Each part of the face is generated individually, using a target score as a condition for each zone, rather than generating the entire face as a whole. The generated crops are then blended to produce full-face images, an approach that yields smoother and more realistic results. Our approach maintains the core idea of Stable Diffusion of doing the denoising-diffusion in the latent space. It employs three distinct prompts: \( P_{full} \), that ensures the model performs the task from a global perspective, \( P_{zone} \), helps the model identify the specific crop zone and focus on increasing or decreasing wrinkles, and \( P_{target} \), used to guide the initial step of the latent cycle consistency loss.
+Our model based on latent diffusion models to achieve locally controlled face aging. Rather than relying on age as a parameter, the focus is placed on the natural evolution of face wrinkles by relying on locally normalized aging scores. Each part of the face is generated individually, using a target score as a condition for each zone, rather than generating the entire face as a whole. The generated crops are then blended to produce full-face images, an approach that yields smoother and more realistic results. Our approach maintains the core idea of Stable Diffusion of doing the denoising-diffusion in the latent space. It employs three distinct prompts: P<sub>full</sub>, that ensures the model performs the task from a global perspective, P<sub>zone</sub>, helps the model identify the specific crop zone and focus on increasing or decreasing wrinkles, and P<sub>target</sub>, used to guide the initial step of the latent cycle consistency loss.
 
 <p align="center">
   <img width="70%" src="images/chart_training.png">
 </p>
 
-The second stage of our method consists of an input image being translated to the latent space. This latent embedding is diffused according to a noise strength \( \gamma_n \). After the diffusion process, the backward step consists of performing \( \gamma_{inf} \) denoising steps. Additionally, the guidance scale, \( \gamma_g \), regulates the importance the text prompt has over the backward process in the attention layers of the network.
+The second stage of our method consists of an input image being translated to the latent space. This latent embedding is diffused according to a noise strength γ<sub>n</sub>. After the diffusion process, the backward step consists of performing γ<sub>inf</sub> denoising steps. Additionally, the guidance scale, γ<sub>g</sub>, regulates the importance the text prompt has over the backward process in the attention layers of the network.
 
 <p align="center">
   <img width="70%" src="images/chart_inference.png">
@@ -51,6 +51,3 @@ We also demonstrate the control over different zones of the face, where **(a)** 
 <p align="center">
     <img width="90%" src="images/playing-values-signs.png">
 </p>
-
-<!-- MathJax for LaTeX support -->
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
